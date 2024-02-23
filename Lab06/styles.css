@@ -2,3 +2,34 @@ header>img{
     max-width: 10rem; 
     margin: 1rem;
 }
+body{
+background-image:url(Images/Fia.png) ;
+background-repeat: repeat;
+background-position: top;
+background-size: 12rem;
+}
+h1{
+    color: crimson;
+    background-color: white;
+}
+h2{
+    color: crimson;
+    background-color: white;
+}
+p{
+    color: crimson;
+    background-color: white;
+}
+ul{
+    color: crimson;
+    background-color: white;
+}
+nav{
+    background-color: white;
+}
+a:hover{
+    color: rgb(253, 106, 106);
+}
+a:visited{
+    color: rgba(255, 0, 0, 0.427);
+}
