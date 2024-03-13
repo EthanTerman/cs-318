@@ -1,0 +1,30 @@
+header{
+    background-color:#304B3C ;
+    color: #F5F9EB;
+    text-align: center;
+}
+nav a{
+    color: #F5F9EB;
+    margin: 10%;
+}
+main{
+    background-color: #F5F9EB;
+    color: #304B3C;
+    padding-bottom: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    margin: 1rem;
+}
+footer{
+    background-color:#304B3C ;
+    color: #F5F9EB;
+}
+footer div{
+    display:flex;
+    gap: 1rem;
+}
+body{
+    background-color:#304B3C ;
+    color: #304B3C;
+}
