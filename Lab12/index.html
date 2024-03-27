@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eater&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header><h1>Monster Creator</h1></header>
     <main>
-        <form>
-            <label for="Monster's Name">Monster's Name</label>
+        <form  action="https://theresahanson.com/monster-creator"  method="post" enctype="multipart/form-data">
+            <label for="Monster'sName">Monster's Name</label>
             <input type="text" id="name" name="monsters-name">
-            <label for="Monster's Email">Monster's Email</label>
+            <label for="Monster'sEmail">Monster's Email</label>
             <input type="text" id="email" name="monster-email" value="@monsteremail.com">
-            <label for="Monster's Birthday">Monster's Birthday</label>
+            <label for="Monster'sBirthday">Monster's Birthday</label>
             <input type="date" id="birthday" name="monster-birthday">
             <fieldset>
                 <legend>Scary?</legend>
@@ -23,18 +29,18 @@
                 <label for="No">No</label>
                 <input type="radio" id="scary-no" name="monster-scary" value="No">
             </fieldset>
-            <label for="Color of Monster">Color of Monster</label>
+            <label for="Color-of-Monster">Color of Monster</label>
             <input type="color" id="color" name="monster-color">
-            <label for="Number of Tentacles">Number of Tentacles</label>
+            <label for="Number-of-Tentacles">Number of Tentacles</label>
             <input type="number" id="tentacles" name="monster-tentacles" value="0" min="0" max="1000000">
-            <label for="Picture of Monster">Picture of Monster</label>
+            <label for="Picture-of-Monster">Picture of Monster</label>
             <input type="file" id="picture" name="monster-picture" accept="images/*">
-            <label for="Number of Eyeballs">"Number of Eyeballs</label>
+            <label for="Number-of-Eyeballs">Number of Eyeballs</label>
             <input type="number" id="eyes" name="monster-eyes" min="0" max="22">
-            <label for="Monster's Creator">Monster's Creator</label>
+            <label for="Monster's-Creator">Monster's Creator</label>
             <input type="text" id="creator" name="monster-creator" value="Your Name Here">
             <div class="actions">
-                <input type=" reset">
+                <input type="reset">
                 <input type="submit">
             </div>
         </form>
