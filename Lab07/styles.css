@@ -1,11 +1,11 @@
-@media (max-width: 500px) {
-    body {
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #fff;
-        background-color: rgb(64, 73, 61);
-    }
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: rgb(64, 73, 61);
 }
+
 header {
     background-image: url('images/trees.png');
     background-size: cover;
@@ -61,45 +61,43 @@ main img {
         justify-content: space-between;
         align-items: center;
     }
-}
-.about-me {
-    display: flex;
-}
+    .about-me {
+        display: flex;
+    }
 
-.about-me h2 {
-    background-image: url('Images/me.jpg');
-    flex-basis: 40%;
-    background-position: center;
-    background-image: url('images/lab7-me.jpg');
-    padding: 10rem 0 10rem 4rem;
-    text-shadow: 2px 2px 2px #0000008f;
-}
+    .about-me h2 {
+        background-image: url('Images/me.jpg');
+        flex-basis: 40%;
+        background-position: center;
+        padding: 10rem 0 10rem 4rem;
+        text-shadow: 2px 2px 2px #0000008f;
+    }
 
-.about-me div {
-    flex-basis: 50%;
-    margin-left: 2rem;
-}
+    .about-me div {
+        flex-basis: 50%;
+        margin-left: 2rem;
+    }
 
-h2 {
-    padding-left: 4rem;
-}
+    h2 {
+        padding-left: 4rem;
+    }
 
-.gallery {
-    display: flex;
-    flex-flow: column wrap;
-    max-height: 78rem;
-}
+    .gallery {
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 78rem;
+    }
 
-.gallery h2 {
-    margin: 0.5rem;
-    background-color: rgb(245, 245, 245);
-    color: rgb(15, 15, 46);
-    padding: 2rem 4rem;
-}
+    .gallery h2 {
+        margin: 0.5rem;
+        background-color: rgb(245, 245, 245);
+        color: rgb(15, 15, 46);
+        padding: 2rem 4rem;
+    }
 
-.gallery img {
-    width: 32%;
-    margin: 0.5rem;
+    .gallery img {
+        width: 32%;
+        margin: 0.5rem;
+    }
 }
-
 
