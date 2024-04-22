@@ -100,4 +100,14 @@ main img {
         margin: 0.5rem;
     }
 }
+@media (min-width:1500px){
+    .gallery{
+        max-height: 120rem;
+    }
+}
+@media (min-width:2300px){
+    .gallery{
+        max-height: 150rem;
+    }
+}
 
