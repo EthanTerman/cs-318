@@ -1,0 +1,43 @@
+body {
+    background-color: #1c2541;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+@media (max-width: 500px) {
+    img {
+        max-width: 100%;
+    }
+}
+.social img {
+    height: 2rem;
+    margin: 0.25rem;
+}
+.hamburger {
+    width: 40px;
+    padding: 0.5rem;
+}
+.hamburger hr {
+    margin: 0.75rem 0;
+    border: 2px solid white;
+}
+header nav {
+    background-color: #0b132b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: -100%;
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+header nav.show{
+    left: 0;
+}
+header nav{
+    transition-property: left;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}

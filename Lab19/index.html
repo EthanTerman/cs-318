@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Eiger</title>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div class="parallax">
@@ -14,12 +15,12 @@
 
     </div>
     <header>
-        <div class="hamburger">
+        <div class="hamburger" onclick="toggleNav()">
             <hr>
             <hr>
             <hr>
         </div>
-        <nav>
+        <nav class="toggle-nav">
             <a href="#about">About</a>
             <a href="#gallery">Gallery</a>
             <a href="#climb">Climb</a>
@@ -90,7 +91,14 @@
         </section>
     </main>
     <footer>
-
+        <span>
+            "Copyright <script>document.write(new Date().getFullYear());</script>".
+        </span>
+        <div>
+            <a href="https://fb.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.pinterest.com/"><img src="images/pinterest.svg" alt="Pinterest"></a>
+        </div>
     </footer>
 </body>
 </html>
