@@ -12,6 +12,8 @@ main{
     color: #304B3C;
     padding-bottom: 10%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 2fr;
 }
 section{
     margin: 1rem;
