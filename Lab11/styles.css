@@ -31,5 +31,5 @@ body{
     color: #304B3C;
 }
 img{
-    border: #304B3C, 1rem;
+    border: #304B3C, 1rem;/*should be border:1rem solid #304B3C;*/
 }

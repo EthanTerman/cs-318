@@ -33,7 +33,7 @@ td, th{
     vertical-align: top;
 }
 td{
-    border: 1px, solid, #023502;
+    border: 1px solid #023502;
 }
 tbody tr:hover{
     background-color: #D8D8B6;
